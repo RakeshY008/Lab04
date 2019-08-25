@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="StudySettings">
+    <StudyTaskManager>
+      <option name="VERSION" value="16" />
+      <option name="myUserTests">
+        <map />
+      </option>
+      <option name="course">
+        <EduCourse>
+          <option name="authors">
+            <list>
+              <StepikUserInfo>
+                <option name="firstName" value="DivyanshBhardwaj" />
+                <option name="id" value="-1" />
+                <option name="lastName" value="" />
+              </StepikUserInfo>
+            </list>
+          </option>
+          <option name="compatible" value="true" />
+          <option name="courseMode" value="Study" />
+          <option name="createDate" value="0" />
+          <option name="customPresentableName" />
+          <option name="description" value="Published Date: 25 August 2019&#10;Deadline Date: 07 August 2019&#10;&#10;**No entries would be accepted after the deadline whatsoever be the case!**" />
+          <option name="environment" value="" />
+          <option name="id" value="0" />
+          <option name="index" value="-1" />
+          <option name="instructors">
+            <list />
+          </option>
+          <option name="language" value="JAVA" />
+          <option name="languageCode" value="en" />
+          <option name="name" value="GLAU_2019_BCSC0002_Assignment 2" />
+          <option name="public" value="false" />
+          <option name="sectionIds">
+            <list />
+          </option>
+          <option name="type" value="pycharm11 Python" />
+          <option name="updateDate" value="0" />
+          <option name="items">
+            <list>
+              <Lesson>
+                <option name="customPresentableName" />
+                <option name="id" value="0" />
+                <option name="index" value="1" />
+                <option name="name" value="section1" />
+                <option name="updateDate" value="0" />
+                <option name="unitId" value="0" />
+                <option name="items">
+                  <list>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="MD" />
+                      <option name="descriptionText" value="# Task 1&#10;&#10;### Problem Statement&#10;Create a method `addTwoNumbers()` that accepts two `int` values and returns their result.  &#10;The signature of the method is already given to you, just change the &quot;logic&quot; inside the method.  &#10;**No need to add a main() method, just complete the method logic!**&#10;&#10;### Input Format&#10;The method will accept two `int` numbers&#10;&#10;### Output Format&#10;The method will return an `int` number that will the sum of the arguments.&#10;&#10;### Sample Input&#10;`4 5`&#10;&#10;### Sample Output&#10;`9`" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="0" />
+                      <option name="index" value="1" />
+                      <option name="name" value="question1" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Task.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="1" />
+                                          <option name="offset" value="137" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="3" />
+                                      <option name="offset" value="182" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="0" />
+                                      <option name="possibleAnswer" value="a + b" />
+                                      <option name="selected" value="true" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Task.java" />
+                                <option name="text" value="public class Task {&#10;&#10;&#9;public int addTwoNumbers(int a, int b) {&#10;&#9;&#9;// TODO write your code here, and delete this line afterwards!&#10;&#9;&#9;return 0;&#10;&#9;}&#10;}&#10;/*&#10; * WARNING: DO NOT ADD A MAIN METHOD TO THIS FILE OR ANYWHERE ELSE!&#10; * */" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/Tests.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/Tests.java" />
+                                <option name="text" value="import org.junit.Assert;&#10;import org.junit.Test;&#10;&#10;public class Tests {&#10;&#9;private Task task = new Task();&#10;&#9;@Test&#10;&#9;public void testSolution() {&#10;&#9;&#9;Assert.assertEquals(9, task.addTwoNumbers(4, 5));&#10;&#9;}&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="MD" />
+                      <option name="descriptionText" value="# Task 2&#10;&#10;## Problem Statement&#10;Create a method in Java to calculate the circumference of a circle.  &#10;The signature of the method is already given to you. &#10;&lt;div class=&quot;hint&quot;&gt;Use Math.PI for the value of PI&lt;/div&gt;&#10;&#10;### Input Format&#10;The input for the method (argument) will contain a single `double` type value.&#10;&#10;### Output Format&#10;The output (return value) for the method will be a single `double` type value.&#10;&#10;### Sample Input&#10;`5.0`&#10;&#10;### Sample Output&#10;`31.41592653589793`" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="0" />
+                      <option name="index" value="2" />
+                      <option name="name" value="question2" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Task.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="3" />
+                                          <option name="offset" value="84" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="3" />
+                                      <option name="offset" value="84" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="0.0" />
+                                      <option name="possibleAnswer" value="2 * Math.PI * radius" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/Task.java" />
+                                <option name="text" value="public class Task {&#10;&#9;public double calculateCircumference(double radius) {&#10;&#9;&#9;return 0.0;&#10;&#9;}&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/Tests.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/Tests.java" />
+                                <option name="text" value="import org.junit.Assert;&#10;import org.junit.Test;&#10;&#10;public class Tests {&#10;&#9;Task task = new Task();&#10;&#9;@Test&#10;&#9;public void testCircumference1() {&#10;&#9;&#9;Assert.assertEquals(18.84955592153876, task.calculateCircumference(3.0), 0.001);&#10;&#9;}&#10;&#10;&#9;@Test&#10;&#9;public void testCircumference2() {&#10;&#9;&#9;Assert.assertEquals(35.18583772020568, task.calculateCircumference(5.6), 0.001);&#10;&#9;}&#10;&#10;&#9;@Test&#10;&#9;public void testCircumference3() {&#10;&#9;&#9;Assert.assertEquals(31.41592653589793, task.calculateCircumference(5), 0.001);&#10;&#9;}&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="MD" />
+                      <option name="descriptionText" value="# Task 3&#10;&#10;## Problem Statement&#10;Create a method named `calculateAreaOfPolygon()` in Java to calculate the area of a regular polygon.&#10;&lt;div class=&quot;hint&quot;&gt;Use the following formula: &lt;br&gt; n * s * s / (4.0 * Math.tan(Math.PI / n))&#10;&lt;br&gt;&#10;Where n is the number of sides and s is the side.&#10;&lt;/div&gt;&#10;&#10;## Input Format&#10;The input(arguments) to the method will be two values  &#10;1. An `int` type value, named `numberOfSides`&#10;2. A `double` type value, named `lengthOfOneSide`&#10;&#10;## Output Format&#10;The output(return value) of the method will be a `double` type value.&#10;&#10;## Sample Input&#10;`6 5.0`&#10;&#10;## Sample Output&#10;`64.9519052838329`&#10;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="0" />
+                      <option name="index" value="3" />
+                      <option name="name" value="question3" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Task.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="3" />
+                                          <option name="offset" value="112" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="3" />
+                                      <option name="offset" value="112" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="0.0" />
+                                      <option name="possibleAnswer" value="numberOfSides * lengthOfOneSide * lengthOfOneSide / (4.0 * Math.tan(Math.PI / numberOfSides))" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/Task.java" />
+                                <option name="text" value="public class Task {&#10;&#9;public double calculateAreaOfPolygon(int numberOfSides, double lengthOfOneSide) {&#10;&#9;&#9;return 0.0;&#10;&#9;}&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/Tests.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/Tests.java" />
+                                <option name="text" value="import org.junit.Assert;&#10;import org.junit.Test;&#10;&#10;public class Tests {&#10;&#9;Task task = new Task();&#10;&#10;&#9;@Test&#10;&#9;public void testWithSimpleValues() {&#10;&#9;&#9;Assert.assertEquals(64.9519052838329, task.calculateAreaOfPolygon(6, 5.0), 0.001);&#10;&#9;}&#10;&#10;&#9;@Test&#10;&#9;public void test2() {&#10;&#9;&#9;Assert.assertEquals(43.01193501472417, task.calculateAreaOfPolygon(5, 5), 0.001);&#10;&#9;}&#10;&#10;&#9;@Test&#10;&#9;public void test3() {&#10;&#9;&#9;Assert.assertEquals(4.5933635465734595, task.calculateAreaOfPolygon(3, 3.25698), 0.001);&#10;&#9;}&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="MD" />
+                      <option name="descriptionText" value="# Task 4&#10;## Problem Statement&#10;Create a method in Java named `convertIntegerToBinaryString()` that will convert an integer value to a binary string.&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  There is already a method present for this in the Java Class Library! Search for it!!&#10;&lt;/div&gt;&#10;&#10;## Input Format&#10;The input(argument) for the method will be a single `int` type value.&#10;&#10;## Output Format&#10;The output(return value) for the method will be a single `String` type value.&#10;&#10;## Sample Input&#10;10&#10;&#10;## Sample Output&#10;1010&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="0" />
+                      <option name="index" value="4" />
+                      <option name="name" value="question4" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Task.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/Task.java" />
+                                <option name="text" value="public class Task {&#10;&#9;public String convertIntegerToBinaryString(int decimalNumber) {&#10;&#9;&#9;return &quot;&quot;;&#10;&#9;}&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/Tests.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/Tests.java" />
+                                <option name="text" value="import org.junit.Assert;&#10;import org.junit.Test;&#10;&#10;public class Tests {&#10;  Task task = new Task();&#10;  @Test&#10;  public void checkFor22() {&#10;    Assert.assertEquals(&quot;10110&quot;, task.convertIntegerToBinaryString(22));&#10;  }&#10;&#10;  @Test&#10;  public void checkFor45() {&#10;    Assert.assertEquals(&quot;101101&quot;, task.convertIntegerToBinaryString(45));&#10;  }&#10;&#10;  @Test&#10;  public void checkFor0() {&#10;    Assert.assertEquals(&quot;0&quot;, task.convertIntegerToBinaryString(0));&#10;  }&#10;&#10;  @Test&#10;  public void checkFor10() {&#10;    Assert.assertEquals(&quot;1010&quot;, task.convertIntegerToBinaryString(10));&#10;  }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="MD" />
+                      <option name="descriptionText" value="# Task 5&#10;&#10;## Problem Statement&#10;Re-create the method in Task 4 with a twist!  &#10;Name the method `convertIntegerToBinaryStringWithAddedBits()`  &#10;As usual, the method is created for you. You just have to implement it!    &#10;The only difference is this time, all the binary numbers must be at least `8-bit` long.&#10;&#10;## Input Format&#10;The input for the method is going to be a `int` type value in decimal number system&#10;&#10;## Output Format&#10;The output for the method is going to be a `String` type value, at least `8-bit` long&#10;&#10;## Sample Input&#10;`10`&#10;&#10;## Sample Output&#10;`00001010`&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="0" />
+                      <option name="index" value="5" />
+                      <option name="name" value="question5" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Task.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/Task.java" />
+                                <option name="text" value="public class Task {&#10;&#9;public String convertIntegerToBinaryStringWithAddedBits(int decimalNumber) {&#10;&#9;&#9;return &quot;&quot;;&#10;&#9;}&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/Tests.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/Tests.java" />
+                                <option name="text" value="import org.junit.Assert;&#10;import org.junit.Test;&#10;&#10;public class Tests {&#10;&#9;Task task = new Task();&#10;&#9;@Test&#10;&#9;public void checkFor10() {&#10;&#9;&#9;Assert.assertEquals(&quot;00001010&quot;, task.convertIntegerToBinaryStringWithAddedBits(10));&#10;&#9;}&#10;&#10;&#9;@Test&#10;&#9;public void checkFor127() {&#10;&#9;&#9;Assert.assertEquals(&quot;01111111&quot;, task.convertIntegerToBinaryStringWithAddedBits(127));&#10;&#9;}&#10;&#10;&#9;@Test&#10;&#9;public void checkFor128() {&#10;&#9;&#9;Assert.assertEquals(&quot;10000000&quot;, task.convertIntegerToBinaryStringWithAddedBits(128));&#10;&#9;}&#10;&#10;&#9;@Test&#10;&#9;public void checkFor0() {&#10;&#9;&#9;Assert.assertEquals(&quot;00000000&quot;, task.convertIntegerToBinaryStringWithAddedBits(0));&#10;&#9;}&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="MD" />
+                      <option name="descriptionText" value="# Task 6&#10;## Problem Statement&#10;Create a method in Java named `calculateAreaOfTriangleWith3Sides()` that calculates the area of a triangle based on the&#10;length of three sides.  &#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  Use the Heron's Formula!&#10;&lt;/div&gt;&#10;&#10;## Input Format&#10;The input to the method are 3 `double` type values namely, `side1`, `side2` and `side3`.&#10;&#10;## Output Format&#10;The output from the method is a single `double` type value.&#10;&#10;## Sample Input&#10;`3.0 3.0 3.0`&#10;&#10;## Sample Output&#10;`3.897114317029974`" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="0" />
+                      <option name="index" value="6" />
+                      <option name="name" value="question6" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Task.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/Task.java" />
+                                <option name="text" value="public class Task {&#10;&#9;public double calculateAreaOfTriangleWith3Sides(double side1, double side2, double side3) {&#10;&#9;&#9;return 0.0;&#10;&#9;}&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/Tests.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/Tests.java" />
+                                <option name="text" value="import org.junit.Assert;&#10;import org.junit.Test;&#10;&#10;public class Tests {&#10;&#9;Task task = new Task();&#10;&#9;@Test&#10;&#9;public void testSolution() {&#10;&#9;&#9;Assert.assertEquals(3.897114317029974, task.calculateAreaOfTriangleWith3Sides(3.0, 3.0, 3.0), 0.001);&#10;&#9;}&#10;&#10;&#9;@Test&#10;&#9;public void testSolution2() {&#10;&#9;&#9;Assert.assertEquals(17.407231794573196, task.calculateAreaOfTriangleWith3Sides(5.5, 6.5, 7.5), 0.001);&#10;&#9;}&#10;&#10;&#9;@Test&#10;&#9;public void checkForZero() {&#10;&#9;&#9;Assert.assertEquals(0.0, task.calculateAreaOfTriangleWith3Sides(0, 0, 0), 0.001);&#10;&#9;}&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="MD" />
+                      <option name="descriptionText" value="# Task 7&#10;## Problem Statement&#10;Create a method in Java to evaluate the expression given below  &#10;$$x = ( 4 * 10) + 5 * 3 * (4 + 2) + 10 % 3$$&#10;The method signature is given below:  &#10;Method name: `evaluateExpression()`  &#10;Method parameter list: `void`  &#10;Method return type: `double`  &#10;Method access modifier: `public`  &#10;&#10;## Input Format&#10;This method does not take any input.&#10;&#10;## Output Format&#10;The output would be a single `int` type value that is the result of the expression." />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="0" />
+                      <option name="index" value="7" />
+                      <option name="name" value="question7" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Task.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/Task.java" />
+                                <option name="text" value="public class Task {&#10;&#9;// TODO write the method here and delete this line afterwards!&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/Tests.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/Tests.java" />
+                                <option name="text" value="import org.junit.Assert;&#10;import org.junit.Test;&#10;&#10;public class Tests {&#10;&#9;Task task = new Task();&#10;&#9;@Test&#10;&#9;public void testSolution() {&#10;&#9;&#9;Assert.assertEquals(131.0, task.evaluateExpression());&#10;&#9;}&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="MD" />
+                      <option name="descriptionText" value="# Task 8&#10;## Problem Statement&#10;Create a method in Java named `booleanAnd()` that will take two `int` type values as argument and&#10;calculate the result of the `boolean` operator `and (&amp;)` on them.  &#10;Then, the method will convert the result into a binary `String`, if the number of digits in the binary `String` is less&#10;than 8, fill it up with zeroes.&#10;Method signature is given in the code. &#10;&#10;## Input Format&#10;The arguments for the method are two `int` type numbers, `a` and `b`  &#10;&#10;## Output Format&#10;The output for the method is a `String` type value&#10;&#10;## Sample Input &#10;`4 5`&#10;&#10;## Sample Output&#10;`00000100`" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="0" />
+                      <option name="index" value="8" />
+                      <option name="name" value="question8" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Task.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/Task.java" />
+                                <option name="text" value="public class Task {&#10;&#9;public static void main(String[] args) {&#10;&#9;&#9;Task task = new Task();&#10;&#9;&#9;StringBuilder sb = new StringBuilder();&#10;&#9;&#9;String stringVal = task.booleanAnd(0, 0);&#10;&#9;&#9;int diff = 8 - stringVal.length();&#10;&#9;&#9;for (int i = 0; i &lt; diff; i++) {&#10;&#9;&#9;&#9;sb.append(&quot;0&quot;);&#10;&#9;&#9;}&#10;&#9;&#9;sb.append(stringVal);&#10;&#9;&#9;System.out.println(sb.toString());&#10;&#9;}&#10;&#10;&#9;public String booleanAnd(int number1, int number2) {&#10;&#9;&#9;return &quot;&quot;;&#10;&#9;}&#10;&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/Tests.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/Tests.java" />
+                                <option name="text" value="import org.junit.Assert;&#10;import org.junit.Test;&#10;&#10;public class Tests {&#10;&#9;Task task = new Task();&#10;&#10;&#9;@Test&#10;&#9;public void checkFor4and5() {&#10;&#9;&#9;Assert.assertEquals(&quot;Input(4, 5)&quot;, &quot;00000100&quot;, task.booleanAnd(4, 5));&#10;&#9;}&#10;&#10;&#9;@Test&#10;&#9;public void checkFor2and2() {&#10;&#9;&#9;Assert.assertEquals(&quot;Input(2, 2)&quot;, &quot;00000010&quot;, task.booleanAnd(2, 2));&#10;&#9;}&#10;&#10;&#9;@Test&#10;&#9;public void checkFor0and0() {&#10;&#9;&#9;Assert.assertEquals(&quot;Input(2, 2)&quot;, &quot;00000000&quot;, task.booleanAnd(0, 0));&#10;&#9;}&#10;&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="MD" />
+                      <option name="descriptionText" value="# Task 9&#10;## Problem Statement&#10;Create a method in Java named `maximumOfThreeNumbers()` that will accept three `double` type values and find the&#10;maximum of the three numbers.&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  You can use Math.max() method for this!&#10;&lt;/div&gt;&#10;&#10;## Input Format&#10;The method will accept three `double` type numbers.&#10;&#10;## Output Format&#10;The method will return the largest of the three numbers&#10;&#10;## Sample Input&#10;`3.0 4.0 5.0`&#10;&#10;## Sample Output&#10;`5.0`" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="0" />
+                      <option name="index" value="9" />
+                      <option name="name" value="question9" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Task.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/Task.java" />
+                                <option name="text" value="public class Task {&#10;&#9;// TODO write your method here and delete this line afterwards!&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/Tests.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/Tests.java" />
+                                <option name="text" value="import org.junit.Assert;&#10;import org.junit.Test;&#10;&#10;public class Tests {&#10;&#9;Task task = new Task();&#10;&#10;&#9;@Test&#10;&#9;public void testSolution() {&#10;&#9;&#9;Assert.assertEquals(&quot;input 3 4 5&quot;, 5.0, task.maximumOfThreeNumbers(3.0, 4.0, 5.0), 0.001);&#10;&#9;}&#10;&#10;&#9;@Test&#10;&#9;public void testSolution1() {&#10;&#9;&#9;Assert.assertEquals(&quot;input 5 4 3&quot;, 5.0, task.maximumOfThreeNumbers(5.0, 4.0, 3.0), 0.001);&#10;&#9;}&#10;&#10;&#9;@Test&#10;&#9;public void testSolution2() {&#10;&#9;&#9;Assert.assertEquals(&quot;input 5 3 4&quot;, 5.0, task.maximumOfThreeNumbers(5.0, 3.0, 4.0), 0.001);&#10;&#9;}&#10;&#10;&#9;@Test&#10;&#9;public void testSolution3() {&#10;&#9;&#9;Assert.assertEquals(&quot;input 3 3 3&quot;, 3.0, task.maximumOfThreeNumbers(3.0, 3.0, 3.0), 0.001);&#10;&#9;}&#10;&#10;&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="MD" />
+                      <option name="descriptionText" value="# Task 10&#10;## Problem Statement&#10;Create a method in Java named `asciiToChar()` that converts an ASCII code to a character.&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  You can read more about ASCII codes &lt;a href=&quot;http://www.asciitable.com&quot;&gt;here&lt;/a&gt;&#10;&lt;/div&gt;&#10;&#10;## Input Format&#10;The method takes in an `int` value that corresponds to an ASCII value&#10;&#10;## Output Format&#10;The method returns the `char` type value of the ASCII value entered&#10;&#10;## Sample Input&#10;`97`&#10;&#10;## Sample Output &#10;`a`" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="0" />
+                      <option name="index" value="10" />
+                      <option name="name" value="question10" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Task.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/Task.java" />
+                                <option name="text" value="public class Task {&#10;&#9;public char asciiToChar(int ascii) {&#10;&#9;&#9;return (char) 0;&#10;&#9;}&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/Tests.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/Tests.java" />
+                                <option name="text" value="import org.junit.Assert;&#10;import org.junit.Test;&#10;&#10;public class Tests {&#10;&#9;Task task = new Task();&#10;&#10;&#9;@Test&#10;&#9;public void testForLowercaseA() {&#10;&#9;&#9;Assert.assertEquals('a', task.asciiToChar(97));&#10;&#9;}&#10;&#10;&#9;@Test&#10;&#9;public void testForSpace() {&#10;&#9;&#9;Assert.assertEquals(' ', task.asciiToChar(32));&#10;&#9;}&#10;&#10;&#9;@Test&#10;&#9;public void testForNull() {&#10;&#9;&#9;Assert.assertEquals('\0', task.asciiToChar(0));&#10;&#9;}&#10;&#10;&#9;@Test&#10;&#9;public void testForNumber4() {&#10;&#9;&#9;Assert.assertEquals('4', task.asciiToChar(52));&#10;&#9;}&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                  </list>
+                </option>
+              </Lesson>
+            </list>
+          </option>
+        </EduCourse>
+      </option>
+    </StudyTaskManager>
+  </component>
+</project>

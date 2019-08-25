@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="section1-question10_main" target="1.8" />
+      <module name="section1-question10_test" target="1.8" />
+      <module name="section1-question1_main" target="1.8" />
+      <module name="section1-question1_test" target="1.8" />
+      <module name="section1-question2_main" target="1.8" />
+      <module name="section1-question2_test" target="1.8" />
+      <module name="section1-question3_main" target="1.8" />
+      <module name="section1-question3_test" target="1.8" />
+      <module name="section1-question4_main" target="1.8" />
+      <module name="section1-question4_test" target="1.8" />
+      <module name="section1-question5_main" target="1.8" />
+      <module name="section1-question5_test" target="1.8" />
+      <module name="section1-question6_main" target="1.8" />
+      <module name="section1-question6_test" target="1.8" />
+      <module name="section1-question7_main" target="1.8" />
+      <module name="section1-question7_test" target="1.8" />
+      <module name="section1-question8_main" target="1.8" />
+      <module name="section1-question8_test" target="1.8" />
+      <module name="section1-question9_main" target="1.8" />
+      <module name="section1-question9_test" target="1.8" />
+      <module name="util_main" target="1.8" />
+      <module name="util_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
