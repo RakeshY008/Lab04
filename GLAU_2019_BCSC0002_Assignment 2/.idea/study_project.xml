@@ -82,8 +82,8 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="3" />
-                                      <option name="offset" value="182" />
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="163" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="0" />
                                       <option name="possibleAnswer" value="a + b" />
