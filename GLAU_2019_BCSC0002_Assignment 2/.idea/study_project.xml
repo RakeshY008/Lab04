@@ -284,7 +284,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/Task.java" />
                                 <option name="text" value="public class Task {&#10;&#9;public String convertIntegerToBinaryString(int decimalNumber) {&#10;&#9;&#9;return &quot;&quot;;&#10;&#9;}&#10;}" />
                                 <option name="trackChanges" value="true" />

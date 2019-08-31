@@ -1,5 +1,6 @@
 public class Task {
 	public String convertIntegerToBinaryString(int decimalNumber) {
-		return "";
+		//return decimalNumber+""+decimalNumber;
+		return concat(decimalNumber, decimalNumber);
 	}
 }
