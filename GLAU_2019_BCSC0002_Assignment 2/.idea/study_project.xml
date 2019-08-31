@@ -431,7 +431,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/Task.java" />
                                 <option name="text" value="public class Task {&#10;&#9;// TODO write the method here and delete this line afterwards!&#10;}" />
                                 <option name="trackChanges" value="true" />
