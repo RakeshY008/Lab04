@@ -153,18 +153,18 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="3" />
+                                      <option name="length" value="16" />
                                       <option name="offset" value="84" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="0.0" />
                                       <option name="possibleAnswer" value="2 * Math.PI * radius" />
-                                      <option name="selected" value="false" />
+                                      <option name="selected" value="true" />
                                       <option name="status" value="Unchecked" />
                                       <option name="studentAnswer" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/Task.java" />
                                 <option name="text" value="public class Task {&#10;&#9;public double calculateCircumference(double radius) {&#10;&#9;&#9;return 0.0;&#10;&#9;}&#10;}" />
                                 <option name="trackChanges" value="true" />

@@ -1,5 +1,5 @@
 public class Task {
 	public double calculateCircumference(double radius) {
-		return 0.0;
+		return 2*Math.PI*radius;
 	}
 }
