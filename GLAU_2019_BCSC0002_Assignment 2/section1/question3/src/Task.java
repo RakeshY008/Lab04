@@ -1,5 +1,7 @@
 public class Task {
 	public double calculateAreaOfPolygon(int numberOfSides, double lengthOfOneSide) {
-		return 0.0;
+
+		return numberOfSides*lengthOfOneSide*lengthOfOneSide/(4.0*Math.tan(Math.PI/numberOfSides));
+
 	}
 }
