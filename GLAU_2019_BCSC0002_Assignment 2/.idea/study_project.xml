@@ -382,7 +382,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/Task.java" />
                                 <option name="text" value="public class Task {&#10;&#9;public double calculateAreaOfTriangleWith3Sides(double side1, double side2, double side3) {&#10;&#9;&#9;return 0.0;&#10;&#9;}&#10;}" />
                                 <option name="trackChanges" value="true" />
