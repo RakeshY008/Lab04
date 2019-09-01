@@ -11,8 +11,10 @@ public class Task {
 		System.out.println(sb.toString());
 	}
 
-	public String booleanAnd(int number1, int number2) {
+	public String booleanAnd(int number1, int number2)
+	{
 		return "";
 	}
+
 
 }
