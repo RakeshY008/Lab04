@@ -1,5 +1,8 @@
 package Lab03;
-
+/*
+ *@ Author : Rakesh Yadav
+ * @ Version : 1.0
+ */
 import java.util.Scanner;
 
 public class Que01 {
