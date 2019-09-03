@@ -7,4 +7,7 @@ public class Program03 {
         System.out.println("The value of Pi = " + pi);
     }
 
+    public static void main(String[] args) {
+        calculate();
+    }
 }
