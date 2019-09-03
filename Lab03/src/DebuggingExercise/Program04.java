@@ -5,9 +5,13 @@ package DebuggingExercise;
  */
 
 public class Program04 {
+    public static void main(String[] args) {
+        convert();
+    }
+
     public static void convert() {
         int i = 1245;
-        byte b = i;
+        byte b = (byte) i;
         System.out.println("The value of the Byte variable b = " + b);
     }
 
