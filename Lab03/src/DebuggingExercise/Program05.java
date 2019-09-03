@@ -6,11 +6,12 @@ package DebuggingExercise;
 
 public class Program05 {
 
-    class ScopeDemo {
+    static class ScopeDemo {
         public static void main(String[] args) {
             int m = 10;
             {
-                int m = 20;
+                m = 20;
+                System.out.println(m);
             }
         }
     }
