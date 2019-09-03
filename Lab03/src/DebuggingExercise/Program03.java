@@ -1,5 +1,6 @@
 package DebuggingExercise;
 
+
 public class Program03 {
 
     public static void calculate() {
