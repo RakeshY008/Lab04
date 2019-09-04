@@ -48,6 +48,7 @@ public class Person {
     @Override
     public String toString(){
         StringBuilder response = new StringBuilder();
+        response.append("Hello, my name is " + myself.getName() + " . I am a man and I am " + myself.getAge() + " years old.";)
         return response.toString();
     }
 
