@@ -46,6 +46,7 @@ public class Person {
 
 
 }
+/*
 class Main {
     public static void main(String[] args) {
         // create an object of the Person class named myself
@@ -53,5 +54,7 @@ class Main {
 
     }
 
-}
+ */
+
+
 
