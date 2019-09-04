@@ -44,13 +44,13 @@ public class Person {
         this.gender = gender;
     }
 
-    /*method override
+    // method override
+    @Override
     public String toString(){
-
-
+        StringBuilder response = new StringBuilder();
+        return response.toString();
     }
 
-     */
 
 }
 
