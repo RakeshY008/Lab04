@@ -1,2 +1,2 @@
-## This is an assignment no. 2 in java
+## This is the work all assigned in java
 >>**_Mentor : Divyansh Bhardwaj_**
