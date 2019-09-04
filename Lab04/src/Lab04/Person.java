@@ -10,6 +10,7 @@ public class Person {
     private int age;
     private char gender;
 
+
     // getter methods
     public String getName() {
         return name;
@@ -35,12 +36,22 @@ public class Person {
     public void setAge(int age) {
         this.age = age;
     }
-}
 
+    // parameterized constructor
+    public Person(String name, int age, char gender) {
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+    }
+
+
+}
 class Main {
     public static void main(String[] args) {
-        Person p1 = new Person();
+        // create an object of the Person class named myself
+        Person myself = new Person("Dean", 40, 'm');
 
     }
 
 }
+
