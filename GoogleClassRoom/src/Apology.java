@@ -9,4 +9,9 @@ public class Apology {
 
     ;
 
+    void say(float s) {
+        System.out.println("I");
+    }
+
+    ;
 }
