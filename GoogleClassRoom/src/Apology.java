@@ -3,4 +3,10 @@ public class Apology {
         new Apology().say(3.0);
     }
 
+    void say(double s) {
+        System.out.println("S");
+    }
+
+    ;
+
 }
