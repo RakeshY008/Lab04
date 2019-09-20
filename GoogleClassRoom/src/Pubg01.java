@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
 public class Pubg01 {
-
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int num = scan.nextInt();
-        if (num < 0 && num > 100) {
+        scan.nextLine().trim();
+        if (num < 0) {
             System.out.println("Invalid Number Entered ");
         } else {
 
@@ -15,13 +15,14 @@ public class Pubg01 {
                 String username = scan.nextLine().trim();
                 String level = scan.nextLine().trim();
                 int score = scan.nextInt();
+                scan.nextLine().trim();
+
                 playerArray[i] = new Player(playername, username, level, score);
             }
             System.out.println("PLAYERNAME \t USERNAME \t LEVEL \t SCORE ");
             for (Player player : playerArray) {
                 System.out.println(player);
             }
-            //scan.close();
         }
     }
 }

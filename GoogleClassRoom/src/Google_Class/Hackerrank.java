@@ -26,7 +26,7 @@ public class Hackerrank {   //  Execution Class
     }
 }
 
-// Defination Class
+// Definition Class
 class Book {
     private String bookname;
     private String authorname;
