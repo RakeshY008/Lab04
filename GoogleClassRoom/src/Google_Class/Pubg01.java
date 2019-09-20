@@ -1,3 +1,4 @@
+package Google_Class;
 import java.util.Scanner;
 
 public class Pubg01 {
