@@ -6,12 +6,11 @@ public class Pubg01 {
         Scanner scan = new Scanner(System.in);
         int num = scan.nextInt();
         scan.nextLine().trim();
-        Player[] playerArray = new Player[num];
 
         if (num < 0 || num > 100) {
             System.out.println("Invalid Number Entered ");
         } else {
-
+            Player[] playerArray = new Player[num];
             for (int i = 1; i <= num; i++) {
                 String playername = scan.nextLine().trim();
                 String username = scan.nextLine().trim();
@@ -20,9 +19,7 @@ public class Pubg01 {
                 scan.nextLine().trim();
                 playerArray[i] = new Player(playername, username, level, score);
             }
-
             System.out.println("PLAYERNAME \t USERNAME \t LEVEL \t SCORE ");
-
             for (Player player : playerArray) {
                 System.out.println(player);
             }
