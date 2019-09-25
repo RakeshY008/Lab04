@@ -49,6 +49,30 @@ public class User {
         this.password = password;
     }
 
+    // creating this method privately for getting email-id in required formate/form....
+
+    private String createUserEmail(){
+        return String.format("%s_%d@%s.com",getName().toLowerCase(),getYearOfJoining(),getCompanyName().toLowerCase());
+    }
+
+    // method to generate random number from given limit as per requirements
+
+    public int generateRandomIntegerFromLimit(int limit){
+        return  (int) (Math.random()*limit);
+    }
+
+    // method to generate special type of password
+
+    private String createUdesPassword(){
+        StringBuilder sb = new StringBuilder();
+        sb.append(generateRandomCharacter());
+        for (int i = 0; i < 4; i++) {
+            sb.append(generateRandomIntegerFromLimit(10));
+        }
+        sb.append(getFirst5CharacterFromUserName());
+        sb.append(generateRandomSpecialSymbol());
+        return sb.toString();
+    }
 
 
 
