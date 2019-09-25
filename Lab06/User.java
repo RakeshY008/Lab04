@@ -101,8 +101,12 @@ public class User {
 
     }
 
-
-
-
-
+    // Constructor
+    public User(String name,String companyName,int yearOfJoining){
+        this.name = name;
+        this.companyName = companyName;
+        this.yearOfJoining = yearOfJoining;
+        this.email = createUserEmail();
+        this.password = createUdesPassword();
+    }
 }
