@@ -74,6 +74,32 @@ public class User {
         return sb.toString();
     }
 
+    // method that generates random charater b/w a-z .
+    private char generateRandomCharacter(){
+        int randomNumberUpto26 = generateRandomIntegerFromLimit(26);
+        return (char) ('a' + randomNumberUpto26);
+    }
+
+    //  method to generate random special symbols
+    private char generateRandomSpecialSymbol(){
+        char[] specialSymbol = {'!','\\','#','%','$','|','&','?','^'};
+        int randomInteger = generateRandomIntegerFromLimit(specialSymbol.length);
+        return specialSymbol[randomInteger];
+    }
+
+    private String getFirst5CharacterFromUserName(){
+        if (getName().length() > 5) {
+            int difference = 5 - getName().length();
+            StringBuilder tempName = new StringBuilder(getName());
+            for (int i = 0; i < difference; i++) {
+                tempName.append("0");
+            }
+            return tempName.toString();
+        }else {
+            return getName().substring(0, 5);
+        }
+
+    }
 
 
 
