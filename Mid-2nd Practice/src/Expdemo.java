@@ -12,7 +12,12 @@ public class Expdemo {
         }
     }
     void func2(){
-        System.out.println("Func2 is Working..... ");
+        System.out.println("But .........  Func2 is Working..... ");
     }
 
+    public static void main(String[] args) {
+        Expdemo myObj = new Expdemo();
+        myObj.func1();
+        myObj.func2();
+    }
 }
