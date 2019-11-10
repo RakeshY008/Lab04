@@ -1,5 +1,4 @@
 import java.util.*;
-
 public class CollectionDemo {
     void simpleCollectionDemo() {
         Collection values = new ArrayList();
@@ -12,7 +11,7 @@ public class CollectionDemo {
         System.out.println("\n Use of  contains method  : " + values.contains(10) );
     }
     void genericWithCollectionDemo(){
-        Collection<Integer> myInt = new ArrayList<Integer>();
+        Collection<Integer> myInt = new ArrayList<>();
         // myInt.add(24.4); - will generate Error as we are passing float_value
         myInt.add(10);
         myInt.add(5);
@@ -24,7 +23,7 @@ public class CollectionDemo {
         System.out.println("It contains Only Integer Values ");
     }
     void demoOfMapWithCollection(){
-        Map<Integer,String> menuType = new TreeMap<>(); // try once with : TreeMap<>=HashMap<>
+        Map<Integer,String> menuType = new HashMap<>(); // try once with : TreeMap<>=HashMap<>
         menuType.put(1,"Yaduvanshi");
         menuType.put(5,"Pgluu");
         menuType.put(2,"Dil");
